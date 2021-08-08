@@ -33,7 +33,7 @@
       />
     </div>
 
-    <button @click="changeQuestion" v-if="isAnswered">
+    <button class="next-button" @click="changeQuestion" v-if="isAnswered">
       Next
     </button>
   </div>
@@ -231,6 +231,28 @@ h1 {
     background-color: #f9a826;
     color: white;
     transition: all 0.3s;
+  }
+}
+.next-button {
+  background: #f9a826;
+  color: white;
+  border-radius: 12px;
+  border: none;
+  padding: 15px 35px;
+  margin-left: 70%;
+  font-weight: 700px;
+  font-size: 18px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.9;
+    transition: all 0.3s;
+  }
+
+  @media screen and (max-width: 460px) {
+    padding: 12px 30px;
+    font-size: 16px;
+    margin-left: 60%;
   }
 }
 </style>
