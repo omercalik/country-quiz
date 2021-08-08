@@ -1,14 +1,15 @@
 # Country Quiz
 
 A quiz application which you can test your knowledge about countries all around the world.
+https://omercalik-country-quiz.netlify.app
 
 # Answering
 
-[![Answering](./src/assets/1.png)](/)
+[![Answering](./src/assets/1.png)](https://omercalik-country-quiz.netlify.app)
 
 # Result
 
-[![Ömer's GitHub Banner](./src/assets/2.png)](/)
+[![Ömer's GitHub Banner](./src/assets/2.png)](https://omercalik-country-quiz.netlify.app)
 
 ## Project setup
 
